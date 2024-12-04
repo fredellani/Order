@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+order,com.example.order.utils.exception,CustomExceptionHandler,0,29,0,0,0,8,0,3,0,3
+order,com.example.order.controller,OrderController,0,46,0,2,0,10,0,4,0,3
+order,com.example.order.service,WebhookService,21,0,0,0,5,0,2,0,2,0
+order,com.example.order.service,OrderRequestService,0,43,0,0,0,13,0,2,0,2
+order,com.example.order.entity,OrderRequest,0,23,0,0,0,5,0,2,0,2
+order,com.example.order.entity,Product,0,25,0,0,0,6,0,2,0,2
+order,com.example.order.utils,MapProductToJsonConverter.new TypeReference() {...},0,6,0,0,0,1,0,1,0,1
+order,com.example.order.utils,MapProductToJsonConverter,0,37,0,0,0,8,0,3,0,3

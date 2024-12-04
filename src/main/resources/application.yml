@@ -1,0 +1,20 @@
+server:
+  port: 8080
+order:
+  webhook:
+    address: "https://webhook.site/f730a43a-70e7-4589-b72d-e20239a6838c"
+    clientId: "myClientId"
+    secretId: "mySecretId"
+spring:
+  datasource:
+    url: jdbc:mariadb://mariadb:3306/order
+    username: root
+    password: 123456
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MariaDBDialect
